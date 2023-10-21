@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="repair.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron:wght@800&family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<title>DITA Repair</title>
+</head>
+
+<body>
+	<div class="form">
+		<header>
+			<div class="header">Computer and Laptop Repair Registration
+			</div>
+			</header>
+		<div class="content">
+			<p>The details collected help keep your device safe during repair</p>
+		</div>
+		<form>
+			<div class="form-container">
+		
+				<input type="text" id="name" name="name" placeholder="Name" required>
+				<br>
+				
+				<input type="text" id="adm" name="adm" placeholder="Adm no. eg 11-1111" required>
+				<br>
+				
+				<input type="tel" id="phone" name="phone" placeholder="Phone no." required>
+				<br>
+				
+				<input type="text" id="device" name="device" placeholder="Model e.g HP" required>
+				<br>
+				<input type="text" id="serial-no" name="serial_No" placeholder="Serial no." required>
+				<br>
+				<label for="issue" class="issue-lbl">Issue:</label>
+				<select type="issue" id="issue" name="issue" required>
+					<option value="choose">Select your option</option>
+					<option value="hardware">Hardware</option>
+					<option value="software">Software</option>
+				</select>
+				<br>
+				<label for="description">Description:</label>
+				<textarea id="description" name="description" rows="5" cols="40"
+					placeholder="Please describe the type of issue you are facing: " required></textarea>
+				<br>
+
+				<input type="submit" value="Submit" id="submitButton" class="btn">
+		</div>
+		</form>
+		<i>
+			<h6 style="position:relative; text-align: center;">Once your repair is done we will get intouch
+				with you via
+				Whatsapp.</h6>
+		</i>
+		<!-- <section class="footer" id="footer-section">
+			<p style="text-align: center;">Resource Lab</p>
+		</section> -->
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 16px;
+	color: rgb(0, 0, 0);
+	font-family:poppins;
+	background-color: rgb(246, 245, 247);
+	width: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-family: poppins;
+	font-size: 16px;
+	background-image: url('https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+.form{
+	border: 3px solid rgb(25, 1, 68);
+	padding: 30px;
+	position: relative;
+	margin: 50px auto;
+	width: 400px;
+	height: auto;
+	border-radius: 50px;
+    backdrop-filter: blur(15px);
+
+}
+h1{
+	color: rgb(199, 212, 204);
+	font-weight: 900;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content:center ;
+	width: 100px;
+	align-items: center;
+    margin: 20px 110px;
+line-height: 2;
+
+}
+input[type="text"]{
+	width: 200px;
+	padding: 10px;
+	border: none;
+	border-bottom: 3px solid rgb(80, 75, 75);
+	outline: none;
+	background-color: transparent;
+	color: rgb(231, 221, 221);
+	font-weight: 600;
+	font-size: 14px;
+}
+#submitButton{
+	width: 100px;
+	padding: 10px 20px;
+	margin-top: 20px;
+	border: none;
+	border-radius: 40px;
+	background-color: rgb(223, 220, 217);
+}
+#submitButton:hover{
+	cursor: pointer;
+	background-color: rgb(204, 4, 121);
+    color: rgb(205, 214, 206);
+}
+input::placeholder{
+	color: rgb(224, 205, 222);
+}

@@ -1,0 +1,98 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 16px;
+	color: rgb(0, 0, 0);
+	font-family:poppins;
+	background-color: rgb(246, 245, 247);
+	width: auto;
+	background-image: url('https://images.pexels.com/photos/17489152/pexels-photo-17489152/free-photo-of-computer-server-in-data-center-room.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.form{
+	border: 3px solid rgb(18, 255, 38);
+	padding: 30px;
+	position: relaStive;
+	margin: 10px auto;
+	width: 500px;
+	height: auto;
+	border-radius: 50px;
+    backdrop-filter: blur(10px);
+}
+.header{
+	color: rgb(255, 230, 7);
+	font-size: 21px;
+	font-weight: 900;
+
+}
+.content{
+	color: rgb(240, 230, 238);
+}
+form{
+	margin: 10px 60px;
+    line-height: 2.5;
+	width: auto;
+}
+select{
+	padding: 5px;
+	border: none;
+	border-radius: 10px;
+	background-color: rgb(7, 194, 194);
+	color: rgb(77, 46, 7);
+}
+select:hover{
+	cursor: pointer;
+}
+#name,#adm,#phone,#device,#serial-no{
+	width:300px;
+	height: 10px;
+	padding: 15px;
+	border: none;
+	border-bottom: 3px solid grey;
+	border-radius: 40px;
+	outline: none;
+}
+label{
+	margin-right: 20px;
+	font-weight:bold ;
+	color: rgb(49, 230, 3);
+}
+textarea{
+	background-color: rgb(245, 245, 240);
+	color: rgb(0, 0, 0);
+	padding: 10px;
+	border-radius: 20px;
+}
+#submitButton{
+	padding: 10px 20px;
+	position: relative;
+	margin-left: 100px;
+	border-radius: 50px;
+	width: 100px;
+	border: none;
+	background-color: bisque;
+	color: rgb(65, 1, 126);
+	font-weight: 800;
+}
+#submitButton:hover{
+	cursor: pointer;
+	background-color: aquamarine;
+	color: brown;
+}
+h6{
+	color:rgb(241, 247, 246);
+	font-weight: 900;
+	font-size: 12px;
+}
+input:focus{
+	background-color: rgb(229, 236, 236);
+}
+input{
+	background-color: rgb(255, 255, 255);
+}
+
